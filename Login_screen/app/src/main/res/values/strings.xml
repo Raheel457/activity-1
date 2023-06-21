@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login_screen</string>
+    <string name="text1">Username</string>
+    <string name="text2">Password</string>
+    <string name="text3">FORGOT YOUR PASSWORD?</string>
+    <string name="text4">Login</string>
+    <string name="text5">----------------------------------- or -----------------------------------</string>
+    <string name="loginText">Login</string>
+    <string name="todo">TODO</string>
+
+</resources>

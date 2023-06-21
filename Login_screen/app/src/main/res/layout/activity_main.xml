@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_theme">
+
+    <ImageView
+        android:id="@+id/loginPic"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/user_foreground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginText"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        />
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="47dp"
+        android:text="@string/text1"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textAlignment="center"
+        android:background="@drawable/text_look"
+        />
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="47dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:text="@string/text2"
+        android:background="@drawable/text_look"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/text_look"
+        android:backgroundTint="#f5c305"
+        android:text="@string/text4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        android:text="@string/text5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_message_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="70sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_privacy_tip_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="VisualLintOverlap" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_thumb_up_alt_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="285dp"
+        />
+</RelativeLayout>
